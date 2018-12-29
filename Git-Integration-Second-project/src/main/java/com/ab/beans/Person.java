@@ -5,7 +5,7 @@ package com.ab.beans;
 
 /**
  * @author Abhinav
- *  @Date Dec 29, 2018
+ * @Date Dec 29, 2018
  * @Time 9:58:46 PM
  */
 public class Person {
@@ -14,9 +14,11 @@ public class Person {
 	private String empName;
 	private String empAddress;
 	private float salary;
-public Person(){
-	System.out.println("0-Param Constructor....");
-}
+
+	public Person() {
+		System.out.println("0-Param Constructor....");
+	}
+
 	/**
 	 * @return the empId
 	 */
