@@ -14,7 +14,9 @@ public class Person {
 	private String empName;
 	private String empAddress;
 	private float salary;
-
+public Person(){
+	System.out.println("0-Param Constructor....");
+}
 	/**
 	 * @return the empId
 	 */
